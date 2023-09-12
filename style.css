@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Lato;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(241, 243, 245);
+}
+
+main {
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 2px -4px 26px -3px rgba(224,224,224,1);
+    -webkit-box-shadow: 2px -4px 26px -3px rgba(224,224,224,1);
+    -moz-box-shadow: 2px -4px 26px -3px rgba(224,224,224,1);
+    background: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#slackUserName {
+
+}
+
+.profile-pic-div {
+    width: 200px;
+}
+
+#slackDisplayImage {
+    width: 100%;
+}
